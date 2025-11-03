@@ -1,0 +1,31 @@
+# .gitignore
+__pycache__/
+*.pyc
+.env
+.venv/
+data/raw/
+data/interim/
+data/clean/
+*.ipynb_checkpoints
+/streamlit/.cache
+
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+__pycache__/
+
+# Data folders (only keep clean data, ignore raw/interim)
+data/raw/
+data/interim/
+
+# Environment files
+.env
+*.pyc
+.DS_Store
+
+# Virtual environment
+venv/
+.env/
+# Kaggle API key
+kaggle.json
