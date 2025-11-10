@@ -1,0 +1,7 @@
+Crop,Positive_Influence,Negative_Influence,Top_Features
+grapes,N,"EC, K, P, S, pH","N, K, S"
+mango,P,"EC, K, N, S, pH","P, K, S"
+mulberry,K,"EC, N, P, S, pH","K, pH, S"
+pomegranate,pH,"EC, K, N, P, S","pH, K, S"
+potato,EC,"K, N, P, S, pH","EC, K, pH"
+ragi,S,"EC, K, N, P, pH","S, K, pH"
