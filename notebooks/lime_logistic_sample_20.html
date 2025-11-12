@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divGB54PQS166KI0NW"></div>
+        <div class="lime top_div" id="top_divCPTBLDDZTQUQ6XW"></div>
         
         <script>
-        var top_div = d3.select('#top_divGB54PQS166KI0NW').classed('lime top_div', true);
+        var top_div = d3.select('#top_divCPTBLDDZTQUQ6XW').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2"], [0.055, 0.94, 0.005]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2"], [0.9989736995836479, 3.712796137033625e-05, 0.0009891724549815578]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1", "2"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["EC > 0.78", 0.4046901332992783], ["pH <= -0.60", 0.30464982185237993], ["N <= -0.65", 0.22616543516792256], ["-0.90 < P <= 0.05", 0.010563576421922695], ["K <= -0.91", -0.010082111489859196]], 1, exp_div);
+                exp.show([["pH > 0.55", -0.24892126278253415], ["-0.94 < EC <= -0.16", -0.19054644405157647], ["0.09 < N <= 0.76", -0.11693323129786917], ["P <= -0.90", -0.1136066898619774], ["-0.91 < K <= -0.04", 0.04621061446988181]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["EC", "0.93", 0.4046901332992783], ["pH", "-0.75", 0.30464982185237993], ["N", "-1.07", 0.22616543516792256], ["P", "-0.73", 0.010563576421922695], ["K", "-1.14", -0.010082111489859196]], 1, raw_div);
+            exp.show_raw_tabular([["pH", "0.99", -0.24892126278253415], ["EC", "-0.41", -0.19054644405157647], ["N", "0.51", -0.11693323129786917], ["P", "-1.02", -0.1136066898619774], ["K", "-0.80", 0.04621061446988181]], 1, raw_div);
         
         </script>
         </body></html>

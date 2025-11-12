@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divGB54PQS166KI0NW"></div>
+        <div class="lime top_div" id="top_divSWAA35Y8A55AKQM"></div>
         
         <script>
-        var top_div = d3.select('#top_divGB54PQS166KI0NW').classed('lime top_div', true);
+        var top_div = d3.select('#top_divSWAA35Y8A55AKQM').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2"], [0.055, 0.94, 0.005]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2"], [0.9999606881711631, 3.7379309064793786e-05, 1.9325197720613466e-06]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1", "2"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["EC > 0.78", 0.4046901332992783], ["pH <= -0.60", 0.30464982185237993], ["N <= -0.65", 0.22616543516792256], ["-0.90 < P <= 0.05", 0.010563576421922695], ["K <= -0.91", -0.010082111489859196]], 1, exp_div);
+                exp.show([["-0.94 < EC <= -0.16", -0.18966885169501613], ["P <= -0.90", -0.12127788860524326], ["-0.02 < pH <= 0.55", -0.09862368486976872], ["K <= -0.91", 0.050258310580986905], ["-0.65 < N <= 0.09", 0.008257308676219731]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["EC", "0.93", 0.4046901332992783], ["pH", "-0.75", 0.30464982185237993], ["N", "-1.07", 0.22616543516792256], ["P", "-0.73", 0.010563576421922695], ["K", "-1.14", -0.010082111489859196]], 1, raw_div);
+            exp.show_raw_tabular([["EC", "-0.57", -0.18966885169501613], ["P", "-1.72", -0.12127788860524326], ["pH", "0.41", -0.09862368486976872], ["K", "-1.29", 0.050258310580986905], ["N", "-0.30", 0.008257308676219731]], 1, raw_div);
         
         </script>
         </body></html>

@@ -1,4 +1,4 @@
-# 🌾 Crop-Specific Soil Insights
+#  Crop-Specific Soil Insights
 
 ## Grapes
 - **Positive Influence →** N
